@@ -1,0 +1,40 @@
+@font-face {
+  font-family: 'inter-var';
+  src: local('Inter') format('woff2');
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'inter-var';
+  src: local('Inter Italic') format('woff2');
+  font-display: swap;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'noto-sans-jp-var';
+  src: local('Noto Sans JP') format('woff2');
+  font-display: swap;
+}
+
+*,
+::before,
+::after,
+::backdrop {
+  margin: unset;
+  padding: unset;
+  font: unset;
+  background: unset;
+  border: unset;
+}
+
+button,
+input {
+  appearance: none;
+}
+
+:root {
+  font-family: 'inter-var', 'noto-sans-jp-var', sans-serif;
+  line-height: 1.5;
+}

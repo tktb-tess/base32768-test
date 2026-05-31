@@ -42,7 +42,7 @@
         }
       }
     ></textarea>
-    <textarea value={compressed}></textarea>
+    <textarea readonly>{compressed}</textarea>
   </div>
 </main>
 

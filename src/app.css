@@ -35,6 +35,18 @@ input {
 }
 
 :root {
+  --color-border: light-dark(hsl(0 0 0 / 25%), hsl(0 0 100 / 25%));
+}
+
+:root {
+  color-scheme: light dark;
   font-family: 'inter-var', 'noto-sans-jp-var', sans-serif;
+  font-feature-settings: 'calt', 'cv01', 'cv05', 'cv07', 'cv08', 'cv10', 'ss03';
   line-height: 1.5;
+  font-optical-sizing: auto;
+  line-break: strict;
+  overflow-wrap: anywhere;
+  scrollbar-gutter: stable;
+  text-spacing-trim: trim-start;
+  text-autospace: normal;
 }

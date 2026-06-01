@@ -10,7 +10,7 @@ export async function compressString(text: string) {
   return encode(bin);
 }
 
-export async function decompressString(base32768: string) {
+export function decompressString(base32768: string) {
   const bin = decode(base32768);
 
   const st = new Blob([bin])

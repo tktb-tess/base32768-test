@@ -1,20 +1,20 @@
 @font-face {
   font-family: 'inter-var';
-  src: local('Inter') format('woff2');
+  src: local('Inter');
   font-display: swap;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'inter-var';
-  src: local('Inter Italic') format('woff2');
+  src: local('Inter Italic');
   font-display: swap;
   font-style: italic;
 }
 
 @font-face {
   font-family: 'noto-sans-jp-var';
-  src: local('Noto Sans JP') format('woff2');
+  src: local('Noto Sans JP');
   font-display: swap;
 }
 
@@ -22,6 +22,7 @@
 ::before,
 ::after,
 ::backdrop {
+  box-sizing: border-box;
   margin: unset;
   padding: unset;
   font: unset;
